@@ -1,0 +1,26 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  width: 40px;
+  height: 40px; 
+  background: red;
+  border-radius: 100%;
+  color: white;
+  z-index: 1;
+}
+
+.scroll-to-top .icon {
+  margin-top: 10px;
+  color: white;
+  animation: scrollTop 0.5s alternate ease infinte;
+}
+
+@keyframes scrollTop {
+  from{
+    transform: translateY(2px);
+  }
+  to{
+    transform: translateY(-1px);
+  }
+}

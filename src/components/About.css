@@ -1,0 +1,40 @@
+
+.Top-page{
+  min-height: 100vh;
+}
+.Sections {
+  padding-top: 5vh;
+}
+
+.Buttons {
+  border: solid 1px white;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Intro {
+  border: solid 1px white;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.Life-lessons {
+  border: solid 1px white;
+  display: table;
+  margin: 0 auto;
+}
+.Nav-pos {
+  position: fixed;
+  top: 0%;
+}
+
+
+
+
+
+
+
+

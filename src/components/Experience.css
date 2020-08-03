@@ -1,0 +1,84 @@
+.Experience {
+  border-top: solid 1px white;
+}
+
+.Work {
+  text-align: center;
+  display: block;
+  margin-top: 20vh;
+}
+
+.ExList {
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  padding: 2%;
+
+}
+
+.List {
+  text-align: left;
+  border: solid 0px red;
+  flex: 1;
+}
+
+.scrolling-wrapper {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Item {
+  padding-left: 5%;
+  border: solid 1px black;
+}
+
+
+.Item:hover {
+  border-left: solid 2px blueviolet;
+}
+
+.Content {
+  border: solid 3px green;
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .ExList {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ExList {
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .List {
+    padding-bottom: 4px;
+  }
+
+  .scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: auto;
+  }
+
+  .Item {
+    flex: 0 0 auto;
+  }
+  
+  .Item:hover {
+    border-bottom: solid 1px blueviolet;
+    border-left: none;
+  }
+  
+  .Content {
+    border: solid 1px green;
+    height: 100px;
+    width: 100%;
+  }
+
+}
+
